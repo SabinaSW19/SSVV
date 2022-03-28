@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="0">
+        <Nume>bbbb</Nume>
+        <Grupa>222</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>jorge</Teacher>
+    </student>
     <student ID="1">
-        <Nume>Ana</Nume>
-        <Grupa>221</Grupa>
+        <Nume>a</Nume>
+        <Grupa>1</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>Ion Popescu</Teacher>
     </student>
     <student ID="2">
-        <Nume>Maria</Nume>
-        <Grupa>222</Grupa>
+        <Nume>ab</Nume>
+        <Grupa>22</Grupa>
+        <Email>aaaa@yahoo.com</Email>
+        <Teacher>dsds</Teacher>
     </student>
-    <student ID="4">
-        <Nume>Ion</Nume>
-        <Grupa>227</Grupa>
+    <student ID="100000">
+        <Nume>bbbb</Nume>
+        <Grupa>222</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>jorge</Teacher>
+    </student>
+    <student ID="99999">
+        <Nume>bbbb</Nume>
+        <Grupa>222</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>jorge</Teacher>
+    </student>
+    <student ID="10">
+        <Nume>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Nume>
+        <Grupa>222</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>jorge</Teacher>
     </student>
 </Entitati>

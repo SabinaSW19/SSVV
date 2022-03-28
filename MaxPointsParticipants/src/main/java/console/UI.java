@@ -63,12 +63,20 @@ public class UI {
         System.out.println("Introduceti grupa studentului: ");
         int grupa = scanner.nextInt();
 
-        if (service.saveStudent(id, nume, grupa) != 0) {
-            System.out.println("Student adaugat cu succes! \n");
-        }
-        else {
-            System.out.println("Student existent sau invalid! \n");
-        }
+        System.out.println("Introduceti emailul studentului: ");
+        String email = scanner.next();
+
+        System.out.println("Introduceti profesorul studentului: ");
+        String professorName = scanner.next();
+
+        service.saveStudent(id, nume, grupa,email,professorName);
+
+//        service.saveStudent(id, nume, grupa,email,professorName {
+//            System.out.println("Student adaugat cu succes! \n");
+//        }
+//        else {
+//            System.out.println("Student existent sau invalid! \n");
+//        }
     }
 
     public void uiSaveTema() {
@@ -167,7 +175,14 @@ public class UI {
         System.out.println("Introduceti noua grupa a studentului: ");
         int grupaNoua = scanner.nextInt();
 
-        if (service.updateStudent(id, numeNou, grupaNoua) != 0) {
+        System.out.println("Introduceti emailul studentului: ");
+        String email = scanner.next();
+
+        System.out.println("Introduceti profesorul studentului: ");
+        String professorName = scanner.nextLine();
+
+
+        if (service.updateStudent(id, numeNou, grupaNoua,email,professorName) != 0) {
             System.out.println("Student actualizat cu succes! \n");
         }
         else {
