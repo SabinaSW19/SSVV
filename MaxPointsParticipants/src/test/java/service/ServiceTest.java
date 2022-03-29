@@ -15,11 +15,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ServiceTest {
+public class ServiceTest {
     private int MAXINT = 100000;
 
     @Test
-    void test_idNegative() {
+    public void test_idNegative() {
         Validator<Student> studentValidator = new StudentValidator();
         Validator<Tema> temaValidator = new TemaValidator();
         Validator<Nota> notaValidator = new NotaValidator();
