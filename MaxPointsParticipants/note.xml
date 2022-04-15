@@ -5,9 +5,19 @@
         <SaptamanaPredare>7</SaptamanaPredare>
         <Feedback>done</Feedback>
     </nota>
+    <nota IDStudent="11" IDTema="11">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>12</SaptamanaPredare>
+        <Feedback>fantastic</Feedback>
+    </nota>
     <nota IDStudent="1" IDTema="2">
         <Nota>7.5</Nota>
         <SaptamanaPredare>9</SaptamanaPredare>
         <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="100" IDTema="100">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>12</SaptamanaPredare>
+        <Feedback>fantastic</Feedback>
     </nota>
 </Entitati>

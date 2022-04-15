@@ -6,11 +6,23 @@
         <Email>abcd@yahoo.com</Email>
         <Teacher>jorge</Teacher>
     </student>
+    <student ID="11">
+        <Nume>aa</Nume>
+        <Grupa>222</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>sdsds</Teacher>
+    </student>
     <student ID="1">
         <Nume>a</Nume>
         <Grupa>1</Grupa>
         <Email>abcd@yahoo.com</Email>
         <Teacher>Ion Popescu</Teacher>
+    </student>
+    <student ID="100">
+        <Nume>aa</Nume>
+        <Grupa>222</Grupa>
+        <Email>abcd@yahoo.com</Email>
+        <Teacher>sdsds</Teacher>
     </student>
     <student ID="2">
         <Nume>ab</Nume>

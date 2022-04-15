@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <tema ID="11">
+        <Descriere>aaa</Descriere>
+        <Deadline>12</Deadline>
+        <Startline>11</Startline>
+    </tema>
     <tema ID="1">
         <Descriere>File</Descriere>
         <Deadline>7</Deadline>
         <Startline>6</Startline>
+    </tema>
+    <tema ID="100">
+        <Descriere>aaa</Descriere>
+        <Deadline>12</Deadline>
+        <Startline>11</Startline>
     </tema>
     <tema ID="2">
         <Descriere>XML</Descriere>

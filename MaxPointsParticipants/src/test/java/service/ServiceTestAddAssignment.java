@@ -2,6 +2,7 @@ package service;
 import domain.Nota;
 import domain.Student;
 import domain.Tema;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import repository.NotaXMLRepository;
 import repository.StudentXMLRepository;
@@ -48,7 +49,7 @@ public class ServiceTestAddAssignment {
     }
 
     @Test
-    void test_idEmpty() {
+    void test_addGrade() {
         Validator<Student> studentValidator = new StudentValidator();
         Validator<Tema> temaValidator = new TemaValidator();
         Validator<Nota> notaValidator = new NotaValidator();
@@ -57,6 +58,7 @@ public class ServiceTestAddAssignment {
         NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
 
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
+
         try {
             service.saveTema(null,"aaa",12,11);
             assert (false);
