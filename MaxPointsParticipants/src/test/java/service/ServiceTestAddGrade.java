@@ -95,4 +95,48 @@ public class ServiceTestAddGrade {
 //        test_addAssignment();
 //        test_addGrade();
     }
+    @Test
+    public void test_addStudentAddAssignment()
+    {
+        service.deleteStudent("100");
+        try {
+            service.saveStudent("100", "aa", 222, "abcd@yahoo.com", "sdsds");
+            assert (true);
+        } catch (ValidationException e) {
+            assert (false);
+        }
+        service.deleteTema("100");
+        try {
+            service.saveTema("100","aaa",12,11);
+            assert (true);
+        } catch (ValidationException e) {
+            assert (false);
+        }
+    }
+    @Test
+    public void test_addStudentAddAssignmentAddGrade()
+    {
+        service.deleteStudent("100");
+        try {
+            service.saveStudent("100", "aa", 222, "abcd@yahoo.com", "sdsds");
+            assert (true);
+        } catch (ValidationException e) {
+            assert (false);
+        }
+        service.deleteTema("100");
+        try {
+            service.saveTema("100","aaa",12,11);
+            assert (true);
+        } catch (ValidationException e) {
+            assert (false);
+        }
+        service.deleteNota("100","100");
+
+        try {
+            service.saveNota("100","100",10,12,"fantastic");
+            assert (true);
+        } catch (ValidationException e) {
+            assert (false);
+        }
+    }
 }
